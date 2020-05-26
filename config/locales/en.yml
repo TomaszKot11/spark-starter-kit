@@ -31,3 +31,8 @@
 
 en:
   hello: "Hello world"
+  admin:
+    import_products: "Products Import"
+    import_page:
+      title: "Hello Import!"
+

@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   Spree::Core::Engine.routes.draw do
     get '/react_sample' => 'react_sample#index'
+
+    namespace :admin do
+      get '/products_import/new', to: 'products_import#new', as: :products_import
+    end
   end
 
   # sidekiq web UI

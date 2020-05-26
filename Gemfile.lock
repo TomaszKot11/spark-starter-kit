@@ -586,6 +586,7 @@ DEPENDENCIES
   coffee-rails
   dalli
   database_cleaner
+  deface
   dotenv-rails (~> 2.1, >= 2.1.1)
   factory_bot
   factory_bot_rails

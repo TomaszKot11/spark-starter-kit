@@ -16,6 +16,7 @@ Spree.config do |config|
   config.layout = 'spree/layouts/spree_application'
   config.logo = 'logo/spree_50.png'
   config.admin_interface_logo = 'admin/logo.png'
+  config.admin_show_version = false
 end
 
 Spree.user_class = 'Spree::User'

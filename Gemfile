@@ -103,6 +103,8 @@ gem 'webpacker', '>= 4.0.x'
 gem 'js-routes'
 gem 'i18n-js', '>= 3.0.0.rc11'
 
+# deface
+gem 'deface'
 # Spree gems
 gem 'spree', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
