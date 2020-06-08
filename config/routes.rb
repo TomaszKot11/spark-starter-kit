@@ -6,7 +6,8 @@ Rails.application.routes.draw do
     get '/react_sample' => 'react_sample#index'
 
     namespace :admin do
-      get '/products_import/new', to: 'products_import#new', as: :products_import
+      post '/products_import', to: 'products_import#create', as: :products_import
+      get '/products_import/new', to: 'products_import#new', as: :products_import_new
     end
   end
 

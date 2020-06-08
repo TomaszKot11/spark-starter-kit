@@ -1,1 +1,5 @@
 <h1><%= t('admin.import_page.title') %></h1>
+<%= form_for @product_import, url: admin_products_import_url do |f| %>
+    <%= f.file_field :products_csv_file, accept: 'text/csv' %>
+    <%= f.submit t('admin.import_page.submit_btn') %>
+<% end %>

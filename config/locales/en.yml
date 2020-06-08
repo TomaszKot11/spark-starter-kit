@@ -31,8 +31,18 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+      product_import:
+        products_csv_file: "The file should be a valid CSV file"
   admin:
-    import_products: "Products Import"
     import_page:
-      title: "Hello Import!"
+      title: "Create Products from CSV"
+      submit_btn: "Upload"
+    products:
+      after_csv_upload: 'Products are being created. Please note that it may take some time.'
+  spree:
+    admin:
+      tab:
+        products_import_new: "Import Products"
 
