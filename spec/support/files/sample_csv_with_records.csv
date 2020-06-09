@@ -1,0 +1,4 @@
+name,description,slug,available_on,shipping_category_name,price
+Shoed,Plain shoed, shoes-plain, 03 Jun 2020 11:14:01 CDT -05:00, Shoes, 299.9
+Computer,MacBook Computer ,Mac-computer,03 Jun 2020 11:14:01 CDT -05:00, Computers, 399.9
+Book, Book about Ruby on Rails framework, rails-book,03 Jun 2020 11:14:01 CDT -05:00, Books, 499.9

@@ -76,6 +76,7 @@ group :test do
   gem 'launchy'
   gem 'vcr'
   gem 'webmock'
+  gem 'rspec-sidekiq'
   gem 'codeclimate-test-reporter', require: nil
 
   gem 'webdrivers'

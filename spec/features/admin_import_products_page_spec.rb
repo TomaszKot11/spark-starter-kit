@@ -49,7 +49,7 @@ RSpec.describe 'admin import products page' do
           expect(page.current_path).to eq '/admin/products'
         end
 
-        it 'should create appripriate record' do
+        it 'should create appropriate record' do
           expect(ProductImport.count).to eq 1
         end
 
